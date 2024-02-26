@@ -45,6 +45,11 @@ class CamelCaseTest {
     }
 
     @Test
+    void lowerCamelCaseBlankTest() {
+        assertEquals("", lowerCamelCase(" "));
+    }
+
+    @Test
     void lowerCamelCaseStringTest() {
         sourceStrings()
                 .forEach(
@@ -68,6 +73,12 @@ class CamelCaseTest {
     @Test
     void lowerCamelCaseSupplierNullTest() {
         assertNull(lowerCamelCase(() -> null));
+    }
+
+
+    @Test
+    void upperCamelCaseBlankTest() {
+        assertEquals("", upperCamelCase(" "));
     }
 
     @Test
