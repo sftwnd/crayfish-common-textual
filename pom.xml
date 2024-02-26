@@ -4,7 +4,7 @@
 
     <groupId>com.github.sftwnd.crayfish.common</groupId>
     <artifactId>crayfish-common-textual</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <name>CrayFish :: COMMON :: Textual</name>
     <description>
@@ -33,7 +33,7 @@
         <url>https://github.com.github.sftwnd/crayfish-common-textual</url>
         <connection>scm:git:https://github.com/sftwnd/crayfish-common-textual.git</connection>
         <developerConnection>scm:git:git@github.com:sftwnd/crayfish-common-textual.git</developerConnection>
-        <tag>crayfish-common-textual-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
