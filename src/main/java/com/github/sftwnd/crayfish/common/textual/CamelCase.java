@@ -34,11 +34,6 @@ public class CamelCase {
         }
     }
 
-    public static void main(String[] args) {
-        System.out.println("LetterIsSoBigLetter\n"+CamelCase.camelCase(" letter isSo Big letter  "));
-
-    }
-
     /**
      * Convert CamelCase notation first symbol to lowercase
      * @param text text to convert
